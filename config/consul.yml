@@ -5,3 +5,8 @@ spring:
         health-check-path: /healths
         prefer-ip-address: true
         health-check-interval: 300s
+
+management:
+  health:
+    consul:
+      enabled: false

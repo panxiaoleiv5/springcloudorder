@@ -9,7 +9,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/panxiaoleiv5/springcloud-news.git #配置git仓库地址
+          uri: https://github.com/panxiaoleiv5/springcloudorder.git #配置git仓库地址
           searchPaths: config #配置仓库路径
           username: panxiaoleiv5 #访问git仓库的用户名
           password: 13758503695.pxl #访问git仓库的用户密码
@@ -26,6 +26,7 @@ spring:
         instance-id: config-service
         health-check-path: /healths
         prefer-ip-address: true
+        health-check-interval: 300s
 management:
   security:
     #关闭安全验证，否则访问refresh端点时会提示权限不足
