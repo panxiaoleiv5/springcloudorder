@@ -1,0 +1,14 @@
+server:
+  port: 8083
+  context-path: /
+
+spring:
+  application:
+    name: commodity-service
+  profiles:
+      active: dev
+  datasource:
+    url: jdbc:mysql://47.106.207.69:3306/commodity?useUnicode=true&characterEncoding=UTF-8&useSSL=true
+    username: panxl
+    password: 123456pxl
+    type: com.alibaba.druid.pool.DruidDataSource
