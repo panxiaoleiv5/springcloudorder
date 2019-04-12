@@ -1,0 +1,32 @@
+server:
+  port: 8101
+spring:
+  application:
+    name: config-service
+  profiles:
+    active: dev
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/panxiaoleiv5/springcloud-news.git #配置git仓库地址
+          searchPaths: config #配置仓库路径
+          username: panxiaoleiv5 #访问git仓库的用户名
+          password: 13758503695.pxl #访问git仓库的用户密码
+      label: master #配置仓库的分支
+
+    consul:
+      ##注册中心ip地址
+      host: localhost
+      ##注册中心监听端口
+      port: 8500
+      discovery:
+        register: true
+        ##注册实例id
+        instance-id: config-service
+        health-check-path: /healths
+        prefer-ip-address: true
+management:
+  security:
+    #关闭安全验证，否则访问refresh端点时会提示权限不足
+    enabled: false
