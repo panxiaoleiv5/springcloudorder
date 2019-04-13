@@ -12,3 +12,7 @@ spring:
     username: panxl
     password: 123456pxl
     type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis:
+  typeAliasesPackage: com.pxl.account.entity
+  mapperLocations: classpath:com/pxl/account/mapperxml/*.xml

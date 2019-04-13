@@ -12,3 +12,10 @@ spring:
     username: panxl
     password: 123456pxl
     type: com.alibaba.druid.pool.DruidDataSource
+
+feign:
+  remote:
+    ##调用商品微服务名称
+    commodity-service: commodity-service
+    ##调用账户微服务名称
+    account-service: account-service
