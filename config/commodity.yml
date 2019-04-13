@@ -14,5 +14,5 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
 
 mybatis:
-  typeAliasesPackage: com.pxl.account.entity
-  mapperLocations: classpath:com/pxl/account/mapperxml/*.xml
+  typeAliasesPackage: com.pxl.commodity.entity
+  mapperLocations: classpath:com/pxl/commodity/mapperxml/*.xml
