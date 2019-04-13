@@ -19,3 +19,7 @@ feign:
     commodity-service: commodity-service
     ##调用账户微服务名称
     account-service: account-service
+
+mybatis:
+  typeAliasesPackage: com.pxl.order.entity
+  mapperLocations: classpath:com/pxl/order/mapperxml/*.xml
