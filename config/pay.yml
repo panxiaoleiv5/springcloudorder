@@ -1,0 +1,26 @@
+server:
+  port: 8085
+  context-path: /
+
+spring:
+  application:
+    name: pay-service
+  profiles:
+      active: dev
+  datasource:
+    url: jdbc:mysql://47.106.207.69:3306/pay?useUnicode=true&characterEncoding=UTF-8&useSSL=true
+    username: panxl
+    password: 123456pxl
+    type: com.alibaba.druid.pool.DruidDataSource
+
+feign:
+  remote:
+    ##调用商品微服务名称
+    commodity-service: commodity-service
+    ##调用账户微服务名称
+    account-service: account-service
+    order-service: order-service
+
+mybatis:
+  typeAliasesPackage: com.pxl.pay.entity
+  mapperLocations: classpath:com/pxl/order/mapperxml/*.xml
