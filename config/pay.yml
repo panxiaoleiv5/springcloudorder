@@ -23,4 +23,4 @@ feign:
 
 mybatis:
   typeAliasesPackage: com.pxl.pay.entity
-  mapperLocations: classpath:com/pxl/order/mapperxml/*.xml
+  mapperLocations: classpath:com/pxl/pay/mapperxml/*.xml
