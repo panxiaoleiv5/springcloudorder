@@ -1,4 +1,6 @@
 spring:
+  jta:
+    transaction-manager-id: txManager
   datasource:
     druid:
       initial-size: 5
