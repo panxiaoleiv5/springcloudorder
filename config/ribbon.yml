@@ -1,0 +1,13 @@
+##调用微服务超时设置
+ribbon:
+  ReadTimeout: 60000
+  SocketTimeout: 60000
+
+##熔断超时设置
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
