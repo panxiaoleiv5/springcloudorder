@@ -23,3 +23,7 @@ feign:
 mybatis:
   typeAliasesPackage: com.pxl.order.entity
   mapperLocations: classpath:com/pxl/order/mapperxml/*.xml
+
+fescar:
+  group:
+    name: test_group

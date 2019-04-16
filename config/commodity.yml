@@ -16,3 +16,7 @@ spring:
 mybatis:
   typeAliasesPackage: com.pxl.commodity.entity
   mapperLocations: classpath:com/pxl/commodity/mapperxml/*.xml
+
+fescar:
+  group:
+    name: test_group
