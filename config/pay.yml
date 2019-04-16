@@ -11,7 +11,7 @@ spring:
     url: jdbc:mysql://47.106.207.69:3306/pay?useUnicode=true&characterEncoding=UTF-8&useSSL=true
     username: panxl
     password: 123456pxl
-    type: com.alibaba.druid.pool.xa.DruidXADataSource
+    type: com.alibaba.druid.pool.DruidDataSource
 
 feign:
   remote:
