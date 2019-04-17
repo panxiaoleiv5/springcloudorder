@@ -1,0 +1,5 @@
+spring:
+  cloud:
+    alibaba:
+      fescar:
+        tx-service-group: my_test_tx_group
