@@ -16,7 +16,3 @@ spring:
 mybatis:
   typeAliasesPackage: com.pxl.account.entity
   mapperLocations: classpath:mapper/*.xml
-
-fescar:
-  group:
-    name: test_group
