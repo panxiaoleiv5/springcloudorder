@@ -15,4 +15,4 @@ spring:
 
 mybatis:
   typeAliasesPackage: com.pxl.account.entity
-  mapperLocations: classpath:mapper/*.xml
+  mapperLocations: classpath:com/pxl/account/mapperxml/*.xml
