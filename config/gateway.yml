@@ -1,0 +1,30 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: gateway-service
+  profiles:
+      active: dev
+
+zuul:
+  routes:
+    ##调用订单服务
+    order-api:
+      path: /order-api/**
+      serviceId: order-service
+
+    ##调用支付服务
+    payment-api:
+      path: /payment-api/**
+      serviceId: payment-service
+
+    ##调用用户服务
+    account-api:
+      path: /account-api/**
+      serviceId: account-service
+
+    ##调用商品服务
+    commodity-api:
+      path: /commodity-api/**
+      serviceId: commodity-service
