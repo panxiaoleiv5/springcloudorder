@@ -24,7 +24,3 @@ feign:
 mybatis:
   typeAliasesPackage: com.pxl.pay.entity
   mapperLocations: classpath:com/pxl/pay/mapperxml/*.xml
-
-fescar:
-  group:
-    name: test_group
