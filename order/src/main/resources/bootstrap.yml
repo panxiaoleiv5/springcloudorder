@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    consul:
+      ##注册中心ip地址
+      host: localhost
+      ##注册中心监听端口
+      port: 8500
+      discovery:
+        register: true
+        ##注册实例id
+        instance-id: order-service
+    config:
+      fail-fast: true
+      name: order,consul,druid,ribbon,rabbit,fescar
+      label: master
+      discovery:
+        enabled: true
+        serviceId: config-service

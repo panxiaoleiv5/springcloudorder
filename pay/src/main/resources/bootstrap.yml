@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    alibaba:
+      fescar:
+        tx-service-group: my_test_tx_group
+    consul:
+      ##注册中心ip地址
+      host: localhost
+      ##注册中心监听端口
+      port: 8500
+      discovery:
+        register: true
+        ##注册实例id
+        instance-id: pay-service
+    config:
+      fail-fast: true
+      name: pay,consul,ribbon,rabbit,druid,fescar
+      label: master
+      discovery:
+        enabled: true
+        serviceId: config-service

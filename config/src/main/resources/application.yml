@@ -27,6 +27,11 @@ spring:
         health-check-path: /healths
         prefer-ip-address: true
         health-check-interval: 300s
+  datasource:
+      url: jdbc:mysql://47.106.207.69:3306/account?useUnicode=true&characterEncoding=UTF-8&useSSL=true
+      username: panxl
+      password: 123456pxl
+      type: com.alibaba.druid.pool.xa.DruidXADataSource
 management:
   security:
     #关闭安全验证，否则访问refresh端点时会提示权限不足

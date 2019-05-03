@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="activeDatabaseInfo">
+      <NewDatabaseInfo>
+        <option name="database" value="account" />
+        <option name="databaseType" value="MySql" />
+        <option name="password" value="123456pxl" />
+        <option name="url" value="47.106.207.69:3306" />
+        <option name="userName" value="panxl" />
+      </NewDatabaseInfo>
+    </option>
+    <option name="databaseInfos">
+      <list>
+        <NewDatabaseInfo>
+          <option name="database" value="account" />
+          <option name="databaseType" value="MySql" />
+          <option name="password" value="123456pxl" />
+          <option name="url" value="47.106.207.69:3306" />
+          <option name="userName" value="panxl" />
+        </NewDatabaseInfo>
+        <NewDatabaseInfo>
+          <option name="database" value="commodity" />
+          <option name="databaseType" value="MySql" />
+          <option name="password" value="123456pxl" />
+          <option name="url" value="47.106.207.69:3306" />
+          <option name="userName" value="panxl" />
+        </NewDatabaseInfo>
+        <NewDatabaseInfo>
+          <option name="database" value="order" />
+          <option name="databaseType" value="MySql" />
+          <option name="password" value="123456pxl" />
+          <option name="url" value="47.106.207.69:3306" />
+          <option name="userName" value="panxl" />
+        </NewDatabaseInfo>
+        <NewDatabaseInfo>
+          <option name="database" value="pay" />
+          <option name="databaseType" value="MySql" />
+          <option name="password" value="123456pxl" />
+          <option name="url" value="47.106.207.69:3306" />
+          <option name="userName" value="panxl" />
+        </NewDatabaseInfo>
+      </list>
+    </option>
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="addSerializeUid" value="true" />
+        <option name="javaMapperPackage" value="com.pxl.pay.dao" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/pay/src/main/java" />
+        <option name="javaModelPackage" value="com.pxl.pay.entity" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/pay/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="pay" />
+        <option name="mapperAnnotaion" value="true" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="account">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.pxl.commodity.dao" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/account/src/main/java" />
+                  <option name="javaModelPacakge" value="com.pxl.commodity.entity" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/account/src/main/java" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/account/src/main/java" />
+                  <option name="xmlPackage" value="com.pxl.commodity.mapperxml" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/account/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+            <entry key="commodity">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.pxl.commodity.dao" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/commodity/src/main/java" />
+                  <option name="javaModelPacakge" value="com.pxl.commodity.entity" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/commodity/src/main/java" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/commodity/src/main/java" />
+                  <option name="xmlPackage" value="com.pxl.commodity.mapperxml" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/commodity/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+            <entry key="order">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.pxl.order.dao" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/order/src/main/java" />
+                  <option name="javaModelPacakge" value="com.pxl.order.entity" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/order/src/main/java" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/order/src/main/java" />
+                  <option name="xmlPackage" value="com.pxl.order.mapperxml" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/order/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+            <entry key="pay">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.pxl.pay.dao" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/pay/src/main/java" />
+                  <option name="javaModelPacakge" value="com.pxl.pay.entity" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/pay/src/main/java" />
+                  <option name="xmlPackage" value="com.pxl.pay.mapperxml" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/pay/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="account:account">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="account_id" />
+                  <option name="javaModelName" value="Account" />
+                  <option name="moduleName" value="account" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="account:user">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="user_id" />
+                  <option name="javaModelName" value="User" />
+                  <option name="moduleName" value="account" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="commodity:commodity">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="commodity_id" />
+                  <option name="javaModelName" value="Commodity" />
+                  <option name="moduleName" value="commodity" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="order:order">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="order_id" />
+                  <option name="javaModelName" value="Order" />
+                  <option name="moduleName" value="order" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="order:order_info">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="order_id" />
+                  <option name="javaModelName" value="OrderInfo" />
+                  <option name="moduleName" value="order" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="pay:pay">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="pay_id" />
+                  <option name="javaModelName" value="Pay" />
+                  <option name="moduleName" value="pay" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="useLomBokOnModel" value="true" />
+        <option name="xmlMapperPackage" value="com.pxl.pay.mapperxml" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/pay/src/main/resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>
